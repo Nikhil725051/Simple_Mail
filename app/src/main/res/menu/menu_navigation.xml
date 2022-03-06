@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="@string/nav_inbox"
+            android:id="@+id/inbox"
+            android:icon="@android:drawable/sym_action_email"
+            android:checked="true"/>
+        <item
+            android:title="@string/nav_drafts"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:id="@+id/draft"/>
+        <item
+            android:title="@string/nav_sent"
+            android:icon="@android:drawable/ic_menu_send"
+            android:id="@+id/send"/>
+        <item
+            android:title="@string/nav_trash"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:id="@+id/trash"/>
+    </group>
+
+</menu>
